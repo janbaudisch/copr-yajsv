@@ -1,7 +1,7 @@
 %global goipath github.com/neilpa/yajsv
 %global forgeurl https://github.com/neilpa/yajsv
 
-Version: 1.3.0
+Version: 1.4.0
 
 %gometa
 
@@ -19,6 +19,7 @@ BuildRequires: golang(github.com/stretchr/objx)
 BuildRequires: golang(github.com/xeipuuv/gojsonpointer)
 BuildRequires: golang(github.com/xeipuuv/gojsonreference)
 BuildRequires: golang(github.com/xeipuuv/gojsonschema)
+BuildRequires: golang(golang.org/x/text)
 BuildRequires: golang(gopkg.in/check.v1)
 BuildRequires: golang(gopkg.in/yaml.v2)
 # FIXME: copr can't find golang(github.com/pmezard/difflib)
